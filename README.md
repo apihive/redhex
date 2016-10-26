@@ -1,2 +1,2 @@
 # redhex
-A Redis, Http, Https and Express base API builder
+A Redis, Http/Https and Express API builder
