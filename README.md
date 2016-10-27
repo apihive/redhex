@@ -27,7 +27,7 @@ npm install redhex --save
     db:4
   },
   logger:{ // [optional]
-  	rotate:true //default false
+  	rotate:true, //default false
     folder:'foldername'
   }
 }
@@ -79,7 +79,7 @@ npm install redhex --save
 ```
 
 
-REDHEX is [on GitHub](https://github.com/apihive/redhex), Let's talk
+REDHEX is [on GitHub](https://github.com/apihive/redhex), Let's talk!
 
 ### ISC LICENSE (ISC)
 
