@@ -1,22 +1,33 @@
 {
   "name": "redhex",
   "version": "1.0.6",
-  "description": "Redis Http/Https and Express Library",
+  "description": "Redis Http/Https and Express API builder",
   "main": "app/index.js",
   "scripts": {
     "build": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+none"
+    "url": "git+https://github.com/apihive/redhex.git"
   },
   "keywords": [
-    "newsfeeds"
+    "redhex",
+    "redis",
+    "http",
+    "https",
+    "express",
+    "api-builder",
+    "http-https",
+    "express-https",
+    "express-redis",
+    "express-api",
+    "http-express",
+    "https-express"
   ],
   "author": "Rhomnick Coloma",
   "license": "ISC",
   "bugs": {
-    "url": "none"
+    "url": "https://github.com/apihive/redhex/issues"
   },
   "homepage": "none",
   "devDependencies": {
@@ -43,7 +54,6 @@
     "morgan": "^1.7.0",
     "multer": "^1.2.0",
     "redis": "^2.6.2",
-    "winston": "^2.2.0",
-    "winston-logrotate": "^1.0.0"
+    "winston": "^2.2.0"
   }
 }
