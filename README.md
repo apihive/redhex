@@ -3,10 +3,12 @@
 A Redis, Http/Https and Express API builder
 
 ### Installation
+--save will save redhex to your dependencies
 ```
 npm install redhex --save
 ```
 ### Manifest [config]
+this can be any filename that contains your configurations
 ```javascript
 {
   ssl:true, //dafault false
@@ -26,14 +28,15 @@ npm install redhex --save
     host: '127.0.0.1',
     db:4
   },
-  logger:{ // [optional]
-  	rotate:true, //default false
-    folder:'foldername'
+  logger:{ // [optional] todo
+  	rotate:true // todo
+    folder:'foldername'// todo
   }
 }
 ```
 
 ### Usage
+This is how you will use it in its simplest form.
 ```javascript
 	//ES6
 	import HEX FROM 'redhex'
@@ -67,7 +70,6 @@ npm install redhex --save
 ##### APP.Log
 ```javascript
     const Log = APP.Log //SHORTEN [optional]
-    Log.log()
     Log.info()
     Log.warn()
     Log.error()
@@ -78,8 +80,11 @@ npm install redhex --save
     Store.LPUSH(key, value, callback)
 ```
 
-
-REDHEX is [on GitHub](https://github.com/apihive/redhex), Let's talk!
+### Complete Todo Example
+[REDHEX-TODO](https://github.com/apihive/redhex-todo) is on Github, Feel free to download it for free. Cheers!
+```
+https://github.com/apihive/redhex-todo
+```
 
 ### ISC LICENSE (ISC)
 
@@ -96,3 +101,14 @@ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+
+Props to Mr. Doob and his [code editor](http://mrdoob.com/projects/code-editor/), from which
+the inspiration to this, and some handy implementation hints, came.
+
+### Stuff used to make this:
+
+ * [markdown-it](https://github.com/markdown-it/markdown-it) for Markdown parsing
+ * [CodeMirror](http://codemirror.net/) for the awesome syntax-highlighted editor
+ * [highlight.js](http://softwaremaniacs.org/soft/highlight/en/) for syntax highlighting in output code blocks
+ * [js-deflate](https://github.com/dankogai/js-deflate) for gzipping of data to make it fit in URLs

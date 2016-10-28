@@ -1,6 +1,6 @@
 {
   "name": "redhex",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Redis Http/Https and Express API builder",
   "main": "app/index.js",
   "scripts": {
