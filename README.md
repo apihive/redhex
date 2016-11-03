@@ -85,6 +85,11 @@ This is how you will use it in its simplest form.
 ```
 https://github.com/apihive/redhex-todo
 ```
+### Become a contributor
+email me at
+```
+rhomnickcoloma@gmail.com
+```
 
 ### ISC LICENSE (ISC)
 
